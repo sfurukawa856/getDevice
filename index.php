@@ -12,6 +12,10 @@
 		<?php
 		var_dump(getDevice());
 
+		/**
+		 * 端末情報取得関数
+		 * @return array 端末情報
+		 */
 		function getDevice() {
 			$ua = [];
 			$ua['ua'] = $_SERVER['HTTP_USER_AGENT'];
